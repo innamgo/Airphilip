@@ -34,3 +34,21 @@ TAX/FEE/CHARGE   : __KRW28000BP____/ __KRW10000RI____/ ________________/
  ________________/ ________________/ ________________/ ________________/        
  ________________/ ________________/ ________________/ ________________/ MORE _ 
 ENTER FBC/VALIDITY/BAG _   ENTER ZP/XF AIRPORTS _    COMPLETE TICKET ISSUANCE X 
+
+
+3. Even Exchange
+SEL001 51 0134 11SEP /KR/PID47866                            
+ 1.KIM/HOON MR JBF0N    -ETK-                                
+ 2.   3P 601  Y   FR05OCT  MWXVVO HK1   0910 1310            
+        *ELECTRONIC TKTG AVAILABLE ON THIS FLIGHT*           
+ 3.   3P 602  Y   WE10OCT  VVOMWX HK1   1410 1610            
+        *ELECTRONIC TKTG AVAILABLE ON THIS FLIGHT*           
+ 4.B/SEL/010-4740-8935                                       
+ 5.E/HOONKIM@AIRPHILIP.COM                                   
+ 6.T/ *T                                                     
+ 7.SSR TKNE 3P  HK1 MWXVVO 0601Y05OCT.7114400018290C1/P1     
+ 8.SSR TKNE 3P  HK1 VVOMWX 0602Y10OCT.7114400018290C2/P1     
+ 9.SEL001                                                    
+>rteta                                                       
+ 1.ETA I  03OCT18 MWXVVO 7114400018287C1/P1                  
+ 2.ETA I  05OCT18 VVOMWX 7114400018287C2/P1                  
