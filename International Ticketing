@@ -49,6 +49,14 @@ SEL001 51 0134 11SEP /KR/PID47866
  7.SSR TKNE 3P  HK1 MWXVVO 0601Y05OCT.7114400018290C1/P1     
  8.SSR TKNE 3P  HK1 VVOMWX 0602Y10OCT.7114400018290C2/P1     
  9.SEL001                                                    
+>XE2,07OCT
+>XE3,12OCT
+>*IR
 >rteta                                                       
  1.ETA I  03OCT18 MWXVVO 7114400018287C1/P1                  
  2.ETA I  05OCT18 VVOMWX 7114400018287C2/P1                  
+>TKT:
+>ETR:1/P1
+
+ACTION EE INVOL N CARRIER 3P
+
