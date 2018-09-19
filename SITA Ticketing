@@ -1,0 +1,59 @@
+1. Ticket Image Retrieval
+DMB FUNCTION                                                                    
+                                                                                
+PURPOSE = DISPLAY A TICKET NUMBER IMAGE ON SCREEN.                              
+EXAMPLE -                                                                       
+DMB 2400010758 / HA / 00000081A / 0001 / 15JAN / F 1 *P12345                    
+=== ========== = == = ========= = ==== = ===== = = = =======                    
+ A       B     C  D C     E     C   F  C   G   C H I    J                       
+                                                                                
+A = FUNCTION DESIGNATOR <MANDATORY>.                                            
+B = TICKET NUMBER <MANDATORY>.                                                  
+    INCLUDES FORM AND SERIAL NUMBERS.                                           
+C = SLASH <CONDITIONAL>.                                                        
+    REQUIRED IF ANY SUCCEEDING FIELDS ARE ENTERED.                              
+D = ISSUING AIRLINE CODE <OPTIONAL>.  DEFAULT IS HOST ALN.                      
+E = ISSUING OFFICE NUMBER W/ COUNTER CODE IF APPLICABLE                         
+    <OPTIONAL>.  DEFAULT IS OFFICE WITH ASSOCIATED TKT PRTR.                    
+F = AGENT NUMBER <OPTIONAL>.                                                    
+G = ISSUANCE DATE <OPTIONAL>.  DDMMM FORMAT.                                    
+H = ATB COUPON TYPE: F=FLIGHT, BLANK OR R=AUDIT/AGENT                           
+I = ATB COUPON NUMBER: FLIGHT=1 THRU 4, BLANK FOR AUDIT/AGT                     
+J = PRINT INDICATOR FOLLOWED BY PRTR PID NUMBER <OPTIONAL>.                     
+    THE PRTR PID NBR CAN ALSO BE O=ODVN OR R=SALES RPT PRTR.                    
+DEMO/3P /DB1/PAGE 1/1>>                                                         
+
+  EX) DMB9900017645/3P/000000
+  
+DMB9900017645/3P/00000011                                                       
+E-TKT NBR:7119900017645       AIR PHILIP                OFFICE:00000011         
+NAME: KIM/HOON                                                     3P ETKT TEST     
+                                                               AIR PHILIP       
+ORIG-DEST:GMP/KWJ    RLOC: JF215   ISSUE DATE:19SEP18          SEOUL KR         
+TOUR CODE:                        ISSUE AGENT:000005                            
+                                                                                
+S FRM/TO  A/L  FLT  CLS  DATE    TIME ST FBC              NVB/NVA          BAG  
+O GMPKWJ  3P   1003 T    28SEP18 0930 OK TOW                               15K  
+                                                                                
+                                                                                
+                                                                                
+ENDORSEMENTS/RESTRICTIONS:                                                      
+FARE CALCULATION:                         FARE CALC INDICATOR: 1                
+SEL 3P KWJ26000TOW KRW26000END                                                  
+FARE BREAKDOWN:                                                                 
+ BASE:KRW       26000                                                           
+EQUIV:                                                                          
+T/F/C:KRW       10600                                                           
+  TTL:KRW       36600                                                           
+                                                                                
+FOP / TAX/FEE/CHARGE DETAIL:                                                    
+DEMO/3P /DB1/PAGE 1/2>>FSPN
+
+DMB9900017645/3P/00000011                                                       
+FOP:CC-VIXXXXXXXXXXXX1344       APVL:687162 EXP:1249      REF:APVL68716262 N    
+EXCHANGE/REISSUE:                                                               
+TAX/FEE/CHARGE DETAIL:                                                          
+     TAX:KRW        4000DA     TAX:KRW        6600YR                            
+                                                                                
+                                                                                
+                                                                                
