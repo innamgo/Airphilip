@@ -80,3 +80,29 @@ ENDO NONENDS/3P ONLY
                                                                                 
                                                                                 
                                                      COMPLETE TICKET ISSUANCE X 
+
+3. Refund Ticket by CC
+RFND:1RE                       E-TICKET REFUND                                  
+KIM/HOONMR                                                 3P/JF3MF             
+RETURNED ETKT NBRS 7114400018302                                                
+FOP CCVI5433330555474201/X0623/PAMT KRW855200                                   
+FOP                                                                             
+FOP                                                                             
+FARE OR EQUIV AMOUNT KRW800000           TAXES/FEES/CHARGES TOTAL KRW55200      
+PENALTY AMT KRW10000____                                                        
+REFUND AMOUNT LESS TAXES LESS PENALTY KRW790000___   TAXES/FEES/CHARGES 1-20    
+ KRW23000BP____ Y    KRW16100RI____ Y    KRW16100RI____ Y                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+XF TAX             :        _         _         _         _  XF RFD             
+SRPT __________________                COMM RATE _____ OR COMM AMT _________    
+RFND FOP CCVI5433330555474201__________________________________AMT ____________ 
+RFND FOP ______________________________________________________AMT ____________ 
+RFND FOP ______________________________________________________AMT ____________ 
+PAPER MCO REF NBR _____________                       AMT REFUNDED KRW845200    
+                                                                                
+                                                                                
+                                                              COMPLETE REFUND _ 
+/REFUND PROCESSED - SAC/711A182000HDG                                           
