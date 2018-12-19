@@ -1,7 +1,14 @@
-1. EC2의 로그의 경로는 /var/log/aws/codedeploy-agent/codedeploy-agent.log
+1. EC2의 로그의 경로
+  /var/log/aws/codedeploy-agent/codedeploy-agent.log
+
 2. 뭐지? 이 에러는?
   2018-12-19 15:45:47 INFO  [codedeploy-agent(32721)]: Version file found in /opt/codedeploy-agent/.version with agent version OFFICIAL_1.0-1.1597_rpm.
   2018-12-19 15:45:47 ERROR [codedeploy-agent(32721)]: InstanceAgent::Plugins::CodeDeployPlugin::CommandPoller: Missing credentials - please check if this instance was started with an IAM instance profile
 
   IAM Role에 CodestarDeploy 권한을 넣은 후 codedeploy-agent를 재시작 하지 않아서 그렇다...
   #링크참고 : https://sarc.io/index.php/aws/1327-tip-codedeploy-missing-credentials
+
+3. Code-pipeline의 Build 단계를 성공했지만 S3압축파일에 target/ROOT.WAR 파일이 없다!
+  pom.xml에 <Build></Build> WAR로 만드는 플러그인을 추가 해야한다.
+  
+  
