@@ -1,0 +1,1 @@
+EC2의 로그의 경로는 /var/log/aws/codedeploy-agent/codedeploy-agent.log 
